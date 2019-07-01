@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<WORKSPACE>
+ <FRAME activewindow="1">
+  <PLACEMENT>2c00000002000000030000000083ffff0083ffffffffffffffffffffaf0200002f02000094070000f2040000</PLACEMENT>
+  <WINDOW type="default" module="ISIS"/>
+  <WINDOW type="default" module="VSMSTUDIO">
+   <FILE ACTIVE="TRUE" NAME="ATmega328P/main.ino"/>
+   <STATE NAME="EDIT" VALUE="AAAA/wAAAAH9AAAAAwAAAAAAAAEAAAABePwCAAAAAfsAAAAQAFAAcgBvAGoAZQBjAHQAcwEAAAAAAAABeAAAASwA////AAAAAQAAAAAAAAAA/AIAAAAC+wAAACoAZABvAGMAawA6ADQAMAA5ADcAOgBMAEUARAAgACYAIABSAGUAcwBlAHQAAAAAAP////8AAAAAAAAAAPsAAAAqAGQAbwBjAGsAOgA0ADAAOQA3ADoATABFAEQAIAAmACAAUgBlAHMAZQB0AAAAAAD/////AAAAAAAAAAAAAAADAAAFTgAAANj8AQAAAAH8AAAAAAAABU4AAAA9AP////oAAAAAAQAAAAX7AAAAIABPAHUAdABwAHUAdABEAG8AYwBrAFcAaQBkAGcAZQB0AQAAAAD/////AAAAPQD////7AAAAKgBkAG8AYwBrADoAMAA6AFMAaQBtAHUAbABhAHQAaQBvAG4AIABMAG8AZwAAAAAA/////wAAAAAAAAAA+wAAACYAZABvAGMAawA6ADEAOgBXAGEAdABjAGgAIABXAGkAbgBkAG8AdwAAAAAA/////wAAAAAAAAAA+wAAACoAZABvAGMAawA6ADAAOgBTAGkAbQB1AGwAYQB0AGkAbwBuACAATABvAGcAAAAAAP////8AAAAAAAAAAPsAAAAmAGQAbwBjAGsAOgAxADoAVwBhAHQAYwBoACAAVwBpAG4AZABvAHcAAAAAAP////8AAAAAAAAAAAAABEgAAAF4AAAAAQAAAAIAAAAIAAAAAvwAAAAA"/>
+   <STATE NAME="DEBUG" VALUE="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"/>
+   <PROJECT ACTIVE="TRUE" NAME="ATmega328P" CONFIGURATION="Debug"/>
+  </WINDOW>
+ </FRAME>
+ <MODULE name="VSMDEBUG">
+  <PWI>
+   <POPUP w="1278" x="6" flags="00000003" y="404" h="290" pid="0" iid="-1">
+    <PROPERTIES>
+     <ITEM name="Message Column Width">1159</ITEM>
+     <ITEM name="ShowGrid">No</ITEM>
+     <ITEM name="Source Column Width">100</ITEM>
+     <ITEM name="Time Column Width">120</ITEM>
+     <ITEM name="Version">100</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="350" x="-848" flags="00000033" y="-504" h="100" pid="1" iid="-1">
+    <PROPERTIES>
+     <ITEM name="Address Column Width">87</ITEM>
+     <ITEM name="AutoResize">No</ITEM>
+     <ITEM name="Gridlines">Yes</ITEM>
+     <ITEM name="Item 0">"str","0x01",00000001,00000006,1,1,2,00000002,0,00000000,00000000</ITEM>
+     <ITEM name="Item 1">"0x00CE","0x00CE",00000001,00000006,206,1,2,00000002,0,00000000,00000000</ITEM>
+     <ITEM name="Item 2">"0xCE","0xCE",00000001,00000006,206,1,2,00000002,0,00000000,00000000</ITEM>
+     <ITEM name="Item 3">"0x12C","0x12C",00000001,00000006,300,1,2,00000002,0,00000000,00000000</ITEM>
+     <ITEM name="Name Column Width">87</ITEM>
+     <ITEM name="ShowAddresses">Yes</ITEM>
+     <ITEM name="ShowPreviousValues">No</ITEM>
+     <ITEM name="ShowTypes">Yes</ITEM>
+     <ITEM name="ShowWatchPoint">Yes</ITEM>
+     <ITEM name="TriggerMode">0</ITEM>
+     <ITEM name="Type Column Width">255</ITEM>
+     <ITEM name="Value Column Width">87</ITEM>
+     <ITEM name="Version">100</ITEM>
+     <ITEM name="Watch Expression Column Width">265</ITEM>
+     <ITEM name="nItems">4</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="66" x="1294" flags="00000013" y="120" h="574" pid="4097" iid="4097">
+    <PROPERTIES/>
+   </POPUP>
+   <POPUP w="30" x="-594" flags="00000009" y="-420" h="16" pid="3" iid="1">
+    <PROPERTIES/>
+   </POPUP>
+   <POPUP w="1" x="6" flags="0000000a" y="100" h="1" pid="10" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">00000000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="1" x="-594" flags="0000000b" y="-436" h="2" pid="6" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">00000000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="1" x="6" flags="0000000a" y="100" h="2" pid="7" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">00000000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="206" flags="00000000" y="258" h="32" pid="14" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">00000000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="1" x="-594" flags="0000000b" y="-436" h="2" pid="4" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">00000100</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="4" x="-594" flags="0000000b" y="-412" h="390451572" pid="13" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">00000020</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="1278" x="6" flags="0000002b" y="119" h="234" pid="1" iid="1">
+    <PROPERTIES>
+     <ITEM name="Breakpoint 0">"loop",0136,002A,B73D,32D3,1
+</ITEM>
+     <ITEM name="CaseSensitive">No</ITEM>
+     <ITEM name="DISPADDRS">Yes</ITEM>
+     <ITEM name="DISPLNUMS">No</ITEM>
+     <ITEM name="DISPOPCODES">No</ITEM>
+     <ITEM name="FIXUPBPTS">Yes</ITEM>
+     <ITEM name="WordsOnly">No</ITEM>
+     <ITEM name="nBreakpoints">0</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="300" x="-798" flags="0000000b" y="-504" h="100" pid="2" iid="1">
+    <PROPERTIES>
+     <ITEM name="Address Column Width">74</ITEM>
+     <ITEM name="AutoResize">No</ITEM>
+     <ITEM name="Gridlines">Yes</ITEM>
+     <ITEM name="Name Column Width">163</ITEM>
+     <ITEM name="ShowAddresses">Yes</ITEM>
+     <ITEM name="ShowGlobals">Yes</ITEM>
+     <ITEM name="ShowPreviousValues">No</ITEM>
+     <ITEM name="ShowTypes">Yes</ITEM>
+     <ITEM name="ShowWatchPoint">No</ITEM>
+     <ITEM name="TriggerMode">0</ITEM>
+     <ITEM name="Type Column Width">66</ITEM>
+     <ITEM name="Value Column Width">89</ITEM>
+     <ITEM name="Version">100</ITEM>
+     <ITEM name="nItems">0</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="450" x="0" flags="00000023" y="184" h="250" pid="0" iid="42">
+    <PROPERTIES>
+     <ITEM name="AutoEcho">0</ITEM>
+     <ITEM name="HexMode">0</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="450" x="66" flags="00000023" y="118" h="250" pid="0" iid="11">
+    <PROPERTIES>
+     <ITEM name="AutoEcho">0</ITEM>
+     <ITEM name="HexMode">0</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="450" x="66" flags="00000022" y="118" h="250" pid="0" iid="83">
+    <PROPERTIES>
+     <ITEM name="AutoEcho">0</ITEM>
+     <ITEM name="HexMode">0</ITEM>
+    </PROPERTIES>
+   </POPUP>
+  </PWI>
+ </MODULE>
+</WORKSPACE>
