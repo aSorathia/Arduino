@@ -1,0 +1,9 @@
+c:\users\abdullah\documents\visual studio 2015\Projects\Serial\Serial\bin\Debug\Serial.exe.config
+c:\users\abdullah\documents\visual studio 2015\Projects\Serial\Serial\bin\Debug\Serial.exe
+c:\users\abdullah\documents\visual studio 2015\Projects\Serial\Serial\bin\Debug\Serial.pdb
+c:\users\abdullah\documents\visual studio 2015\Projects\Serial\Serial\obj\Debug\Serial.csprojResolveAssemblyReference.cache
+c:\users\abdullah\documents\visual studio 2015\Projects\Serial\Serial\obj\Debug\Serial.Form1.resources
+c:\users\abdullah\documents\visual studio 2015\Projects\Serial\Serial\obj\Debug\Serial.Properties.Resources.resources
+c:\users\abdullah\documents\visual studio 2015\Projects\Serial\Serial\obj\Debug\Serial.csproj.GenerateResource.Cache
+c:\users\abdullah\documents\visual studio 2015\Projects\Serial\Serial\obj\Debug\Serial.exe
+c:\users\abdullah\documents\visual studio 2015\Projects\Serial\Serial\obj\Debug\Serial.pdb

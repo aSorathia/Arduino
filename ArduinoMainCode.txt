@@ -1,0 +1,92 @@
+#include<stdio.h>
+#include<conio.h>
+#include<String.h>
+char buffer[30];
+char semiBuffer[30];
+int noOfChips=1;
+int motorPerChip=8;
+int levels=4; //0,1,2,3 max is 3 in binary it is 11 i.e. 2bit  levelBitsSize = 2
+int levelBitsSize=2;
+char outputbuffer[5][1];  //OutputBuffer[2*levelBitSize+1][noOfChip]
+int bytesRecieved = 0;
+int totalMotorData = 0;
+
+
+void readySemiBuffer(){
+	char val = 0;
+	int j=0;
+	for(int  i=0;i< bytesRecieved;i++){
+		val = buffer[i];
+		semiBuffer[j++] = val & 0x0F;
+		semiBuffer[j++] = (val & 0xF0)>>4;
+	}
+}
+
+void transmitByts(){
+	int bytesToSend = 2*levelBitsSize+1;
+	printf("Hex Values\n");
+	for(int i=0;i< noOfChips;i++){
+		printf("Chip %d\n",i);
+		for(int j=0 ; j<bytesToSend;j++ ){
+			printf("Byte %d: %X\n",j,outputbuffer[j][i]);
+		}
+	}
+}
+
+void main(){
+
+	int i;
+	/*printf("Enter No of bytes: ");
+	scanf("%d",&bytesRecieved);
+	for(i=0; i< bytesRecieved ; i++){
+		printf("Enter byte %d: ", i);
+		scanf("%x",&buffer[i]);
+	}  */
+	bytesRecieved = 2;
+	buffer[0]=0x23;
+	buffer[1]=0x12;
+	if(bytesRecieved!=0){ //Check of the recied byte /Buffer is not empty
+		readySemiBuffer();
+		int semIndex = 0;
+		int byteLimit = noOfChips;
+		int rowLimit = 2*levelBitsSize;
+		for(int byteM = 0; byteM < byteLimit; byteM ++){   //Select byte
+			int column = 0;
+			for(int bitNo = 7; bitNo >= 0 ; bitNo--){
+				if(column%2==0){
+					char semVal = semiBuffer[semIndex++];//select the byte
+					for(int row = 0; row < rowLimit ; row ++ ){
+						if(row%2==0){
+							if(((semVal >> row/2)&1)==1){
+								outputbuffer[row][byteM]|=(1<<bitNo);
+							}else{
+								outputbuffer[row][byteM]&=~(1<<bitNo);
+							}
+						}
+					}
+				}else{
+					for(int row = 0; row < rowLimit ; row ++ ){
+						if(row%2==0){
+								outputbuffer[row][byteM]|=(1<<bitNo);
+						}else{
+							outputbuffer[row][byteM]&=~(1<<bitNo);
+						}
+					}
+				}
+				column++;
+			}
+			int lastsignal = 2*levelBitsSize;
+			column=0;
+			for(bitNo = 7; bitNo >= 0 ; bitNo--){
+				if(column%2==0){
+					outputbuffer[lastsignal][byteM]|=(1<<bitNo);
+				}else{
+					outputbuffer[lastsignal][byteM]&=~(1<<bitNo);
+				}
+				column++;
+			}
+		}
+	}
+	transmitByts();
+	getch();
+}
